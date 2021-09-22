@@ -1,5 +1,46 @@
+:root {
+  --header-font: "Montserrat", sans-serif;
+  --paragraph-font: "Lora", serif;
+}
+
 body {
   background: #fed61b;
+}
+
+h1,
+h2 {
+  font-family: var(--header-font);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 95px;
+  margin: 45px auto 0 auto;
+  color: black;
+}
+
+h2 {
+  color: white;
+}
+
+.navbar {
+  height: 80px;
+  border-bottom: 1px solid black;
+  font-family: var(--header-font);
+  padding: 25px 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-right {
+  padding-right: 125px;
+}
+
+.container {
+  text-align: center;
 }
 
 .background-image {
@@ -12,22 +53,15 @@ body {
   left: 0;
 }
 
-h1,
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+.btn-branding {
+  border: 1px solid black;
+  border-radius: 20px;
+  background: black;
   color: white;
-  text-align: center;
-}
-
-h1 {
-  font-size: 95px;
-  margin: 0 auto;
-}
-
-p {
-  font-family: "Lora", serif;
-  text-align: center;
+  margin: 30px;
+  font-family: var(--header-font);
+  font-weight: bold;
+  box-shadow: 3px 3px 2px 2px rgba(110, 71, 71, 0.6);
 }
 
 .footer {
@@ -51,4 +85,5 @@ p {
 
 .footer-message {
   font-size: 11px;
+  text-align: center;
 }
