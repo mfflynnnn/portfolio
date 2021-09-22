@@ -1,3 +1,31 @@
 body {
-  background: aquamarine;
+  background: #fed61b;
+}
+
+.background-image {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: -200px;
+  left: 0;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 95px;
+  margin: 0 auto;
+}
+
+p {
+  font-family: "Lora", serif;
+  text-align: center;
 }
