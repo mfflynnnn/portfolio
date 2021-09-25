@@ -4,7 +4,9 @@
 }
 
 body {
-  background: #fed61b;
+  background-image: url(/images/kitten_webpage_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1,
@@ -64,11 +66,20 @@ h2 {
   box-shadow: 3px 3px 2px 2px rgba(110, 71, 71, 0.6);
 }
 
+.row-links {
+  justify-content: space-evenly;
+}
+
+.col-links {
+  justify-items: center;
+}
+
 .img-about-me {
   border: 1px solid white;
   border-radius: 20px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
 }
 
 .footer {
