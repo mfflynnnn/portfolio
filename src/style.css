@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(/images/kitten_webpage_img.png);
+  background-image: url(/images/kitten2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -62,7 +62,37 @@ h2 {
 }
 
 .row-links {
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.img-wrap {
+  position: relative;
+  margin: 0 30px;
+  padding: 0;
+  width: 150px;
+  height: 165px;
+}
+
+.img-description {
+  width: 149.5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #000;
+  font-weight: bold;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img-wrap:hover .img-description {
+  visibility: visible;
+  opacity: 1;
 }
 
 .img-about-me,
