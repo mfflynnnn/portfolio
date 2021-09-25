@@ -70,7 +70,8 @@ h2 {
   justify-content: space-evenly;
 }
 
-.img-about-me {
+.img-about-me,
+.img-projects {
   display: block;
   margin: 0 auto;
   border: 1px solid white;
@@ -100,5 +101,6 @@ h2 {
 
 .footer-message {
   font-size: 11px;
-  text-align: center;
+  text-align: left;
+  align-self: center;
 }
