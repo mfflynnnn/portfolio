@@ -26,6 +26,10 @@ h2 {
   margin: 0;
 }
 
+.smaller-h1 {
+  font-size: 65px;
+}
+
 .navbar {
   height: 80px;
   border-bottom: 1px solid black;
@@ -103,6 +107,15 @@ h2 {
 .img-about-me,
 .img-projects,
 .img-certifications {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.image-molly {
   display: block;
   margin: 0 auto;
   border: 1px solid white;
