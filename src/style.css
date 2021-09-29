@@ -77,14 +77,24 @@ h3 {
 }
 
 .btn-branding {
+  display: inline-block;
+  justify-self: center;
   border: 1px solid var(--primary-font-color);
   border-radius: 20px;
+  max-width: 125px;
+  max-height: 38px;
   background: var(--primary-font-color);
   color: white;
   margin: 35px;
+  padding: 6px 12px;
   font-family: var(--header-font);
   font-weight: bold;
   box-shadow: 2px 2px 2px 2px rgba(110, 71, 71, 0.3);
+}
+
+.btn-branding:hover {
+  background: white;
+  color: var(--primary-font-color);
 }
 
 .row-links {
@@ -109,7 +119,7 @@ h3 {
   background: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  color: #000;
+  color: var(--primary-font-color);
   font-weight: bold;
   visibility: hidden;
   opacity: 0;
