@@ -196,3 +196,17 @@ h3 {
   text-align: left;
   align-self: center;
 }
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 45px;
+  }
+  .cat-pages {
+    background: #fed61b;
+  }
+  .img-about-me,
+  .img-projects,
+  .img-certifications {
+    min-width: 100%;
+  }
+}
