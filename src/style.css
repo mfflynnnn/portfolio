@@ -30,6 +30,11 @@ h3 {
   color: white;
 }
 
+h5 {
+  color: white;
+  margin-top: 30px;
+}
+
 p {
   padding: 0 35px;
 }
@@ -78,6 +83,19 @@ p {
 
 .smaller-h1 {
   font-size: 65px;
+}
+
+.contact-message {
+  margin-top: 30px;
+}
+
+.email a {
+  color: var(--primary-font-color);
+  transition: 200ms ease-in-out;
+}
+
+.email a:hover {
+  color: grey;
 }
 
 .btn-branding {
