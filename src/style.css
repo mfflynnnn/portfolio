@@ -198,6 +198,15 @@ p {
   margin: 40px auto 0;
 }
 
+.row-projects a {
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+
+.row-projects a:hover {
+  color: var(--primary-font-color);
+}
+
 .certs {
   max-width: 450px;
 }
