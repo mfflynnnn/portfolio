@@ -91,7 +91,7 @@ p {
 
 .email a {
   color: var(--primary-font-color);
-  transition: 200ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .email a:hover {
@@ -193,8 +193,13 @@ p {
   padding-left: 0;
 }
 
-.row {
+.row-projects,
+.row-certs {
   margin: 40px auto 0;
+}
+
+.certs {
+  max-width: 450px;
 }
 
 .footer a {
