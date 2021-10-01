@@ -214,28 +214,25 @@ p {
   margin-left: 30px;
 }
 
-.icon-git {
-  display: inline-block;
-  color: var(--primary-font-color);
-  font-size: 30px;
-  text-decoration: none;
-  text-align: right;
-  padding-right: 30px;
-}
-
-.icon-git:hover {
-  color: white;
-}
-
+.icon-git,
 .icon-linkedin {
   display: inline-block;
   color: var(--primary-font-color);
   font-size: 30px;
   text-decoration: none;
-  text-align: left;
-  padding-left: 30px;
+  padding-right: 30px;
+  transition: all 100ms ease-in-out;
 }
 
+.icon-git {
+  text-align: right;
+}
+
+.icon-linkedin {
+  text-align: left;
+}
+
+.icon-git:hover,
 .icon-linkedin:hover {
   color: white;
 }
