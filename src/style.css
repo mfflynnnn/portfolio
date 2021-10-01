@@ -162,17 +162,21 @@ p {
 }
 
 .image-left {
-  justify-content: right;
+  justify-content: end;
 }
 
-.project-desc-left {
+.project-desc-right {
   margin: 0;
   padding: 0;
   text-align: left;
 }
 
-.project-desc-left p {
+.project-desc-right p {
   padding-left: 0;
+}
+
+.row {
+  margin: 40px auto 0;
 }
 
 .footer a {
