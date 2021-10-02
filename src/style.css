@@ -88,19 +88,6 @@ p {
   font-size: 65px;
 }
 
-.contact-message {
-  margin: 75px 30px 30px 30px;
-}
-
-.email a {
-  color: var(--primary-font-color);
-  transition: all 100ms ease-in-out;
-}
-
-.email a:hover {
-  color: grey;
-}
-
 .btn-branding {
   display: inline-block;
   justify-self: center;
@@ -185,11 +172,23 @@ p {
   padding: 15px;
 }
 
+.skills-box h3 {
+  margin: 0 15px 15px 15px;
+}
+
+.soft-skills {
+  padding: 15px 0 0 0;
+}
+
 .skills-box p {
   padding: 0;
   margin: 0;
+  font-weight: bold;
 }
 
+.about-me-info {
+  margin: 30px 200px 50px 200px;
+}
 .project-images {
   max-width: 400px;
   max-height: 400px;
@@ -218,7 +217,7 @@ p {
 }
 
 .row-projects,
-.row-certs {
+.certs {
   margin: 40px auto 0;
 }
 
@@ -232,7 +231,20 @@ p {
 }
 
 .certs {
-  max-width: 450px;
+  max-width: 400px;
+}
+
+.contact-message {
+  margin: 75px 30px 30px 30px;
+}
+
+.email a {
+  color: var(--primary-font-color);
+  transition: all 100ms ease-in-out;
+}
+
+.email a:hover {
+  color: white;
 }
 
 .footer a {
@@ -282,12 +294,17 @@ p {
 }
 
 @media (max-width: 960px) {
-  h1,
-  .smaller-h1 {
+  h1 {
     font-size: 45px;
   }
   h2 {
     padding: 0 15px 0 15px;
+  }
+  h2 a {
+    font-size: small;
+  }
+  h5 {
+    font-size: small;
   }
   .nav-item {
     background: white;
@@ -296,12 +313,53 @@ p {
   .cat-pages {
     background: #fed61b;
   }
+  .smaller-h1 {
+    font-size: 40px;
+  }
   .row-links {
-    display: block;
+    display: flex;
+  }
+  .img-about-me,
+  .img-projects,
+  .img-certifications {
+    margin: 0 auto;
   }
   .image-molly {
     max-width: 150px;
     max-height: 150px;
+  }
+  .skills-box {
+    max-width: 50%;
+    text-align: center;
+  }
+  .about-me-info {
+    margin: 30px;
+  }
+  .row-projects,
+  .row-projects h4 {
+    margin-top: 25px;
+  }
+  .project-images {
+    max-width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .project-desc-right,
+  .project-desc-left {
+    text-align: center;
+  }
+  .project-desc-right p,
+  .project-desc-left p {
+    padding: 0 40px;
+  }
+  .certs {
+    max-width: 250px;
+  }
+  .contact-message {
+    margin: 20px;
+  }
+  .footer {
+    padding-bottom: 10px;
   }
   .footer-message {
     text-align: center;
