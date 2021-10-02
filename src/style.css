@@ -32,7 +32,6 @@ h3 {
 }
 
 h4 {
-  margin: 30px;
   color: white;
 }
 
@@ -90,7 +89,7 @@ p {
 }
 
 .contact-message {
-  margin-top: 75px;
+  margin: 75px 30px 30px 30px;
 }
 
 .email a {
@@ -179,7 +178,7 @@ p {
 }
 
 .skills-box {
-  border: 1px solid var(--primary-font-color);
+  border: 1px solid white;
   border-radius: 20px;
   max-width: fit-content;
   margin: 30px;
@@ -192,12 +191,12 @@ p {
 }
 
 .project-images {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 400px;
+  max-height: 400px;
 }
 
-.image-left {
-  justify-content: end;
+.project-images {
+  margin: 0 50px;
 }
 
 .project-desc-right {
@@ -208,6 +207,14 @@ p {
 
 .project-desc-right p {
   padding-left: 0;
+}
+
+.project-desc-left {
+  text-align: right;
+}
+
+.project-desc-left p {
+  padding-right: 0;
 }
 
 .row-projects,
@@ -234,7 +241,7 @@ p {
 
 .no-cat-footer {
   text-align: center;
-  padding: 0;
+  padding: 15px;
   display: inline-flex;
   align-content: center;
 }
