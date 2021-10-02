@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Molly Flynn is a professional junior front end engineer based in Seattle, Washington. Her technical skills include JavaScript, HTML, CSS, Bootstrap, Git/GitHub, and React."
+    />
     <title>Molly Flynn - Homepage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,7 +35,7 @@
   <body class="cat-pages">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Molly Flynn</a>
+        <a class="navbar-brand" href="/" title="Homepage">Molly Flynn</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,16 +50,30 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About Me</a>
+              <a class="nav-link" href="/" title="Homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/projects.html">Projects</a>
+              <a class="nav-link" href="/about.html" title="About Molly"
+                >About Me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/certs.html">Certifications</a>
+              <a class="nav-link" href="/projects.html" title="Molly's Projects"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a
+                class="nav-link"
+                href="/certs.html"
+                title="Molly's Certifications"
+                >Certifications</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" title="Contact Molly"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -71,7 +89,7 @@
         >Contact Me</a
       >
       <div class="row row-links">
-        <div class="col-2 img-wrap">
+        <div class="mx-auto col-sm-12 col-lg-2 img-wrap">
           <a href="/about.html">
             <img
               class="img-fluid img-about-me"
@@ -81,7 +99,7 @@
           </a>
           <p class="img-description">About Me</p>
         </div>
-        <div class="col-2 img-wrap">
+        <div class="mx-auto col-sm-12 col-lg-2 img-wrap">
           <a href="/projects.html">
             <img
               class="img-fluid img-projects"
@@ -91,7 +109,7 @@
           </a>
           <p class="img-description">Projects</p>
         </div>
-        <div class="col-2 img-wrap">
+        <div class="mx-auto col-sm-12 col-lg-2 img-wrap">
           <a href="/certs.html">
             <img
               class="img-certifications"
@@ -107,18 +125,20 @@
       <a
         href="https://github.com/mfflynnnn"
         target="_blank"
-        class="icon-git col-2"
+        class="icon-git col-6 col-lg-2"
+        title="GitHub"
       >
         <i class="fab fa-github"></i>
       </a>
       <a
         href="https://www.linkedin.com/in/mollymflynn/"
         target="_blank"
-        class="icon-linkedin col-1"
+        class="icon-linkedin col-6 col-lg-1"
+        title="LinkedIn"
       >
         <i class="fab fa-linkedin"></i>
       </a>
-      <p class="footer-message col-9">
+      <p class="footer-message col-12 col-lg-9">
         This site was built by Molly Flynn. High five!
       </p>
     </footer>

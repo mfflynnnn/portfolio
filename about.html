@@ -31,7 +31,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Molly Flynn</a>
+        <a class="navbar-brand" href="/" title="Homepage">Molly Flynn</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,18 +46,30 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/about.html"
+              <a class="nav-link" href="/" title="Homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About Molly"
                 >About Me</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/projects.html">Projects</a>
+              <a class="nav-link" href="/projects.html" title="Molly's Projects"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/certs.html">Certifications</a>
+              <a
+                class="nav-link"
+                href="/certs.html"
+                title="Molly's Certifications"
+                >Certifications</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="/contact.html" title="Contact Molly"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -70,10 +82,13 @@
       <img
         src="/images/about_me_image.JPG"
         alt="Image of Molly Flynn"
-        class="image-molly"
+        class="image-molly img-fluid"
       />
       <h3>
         Technical Skills: HTML, CSS, JavaScript, Bootstrap, Git/GitHub, React.js
+        <br />
+        Soft Skills: Empathy, sensitive and direct communication, creative and
+        critical thinking
       </h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -99,7 +114,7 @@
         aenean et tortor at risus viverra.
       </p>
     </div>
-    <footer class="footer no-cat-footer">
+    <footer class="footer no-cat-footer d-flex justify-content-center">
       <a href="https://github.com/mfflynnnn" target="_blank" class="icon-git">
         <i class="fab fa-github"></i>
       </a>

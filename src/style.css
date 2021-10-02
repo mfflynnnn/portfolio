@@ -27,7 +27,14 @@ h2 {
 }
 
 h3 {
-  margin: 0 0 30px 0;
+  margin: 30px 15px;
+  color: white;
+  border: 1px solid var(--primary-font-color);
+  border-radius: 20px;
+}
+
+h4 {
+  margin: 30px;
   color: white;
 }
 
@@ -85,7 +92,7 @@ p {
 }
 
 .contact-message {
-  margin-top: 30px;
+  margin-top: 75px;
 }
 
 .email a {
@@ -216,11 +223,13 @@ p {
 
 .no-cat-footer {
   text-align: center;
-  padding-top: 30px;
+  padding: 0;
+  display: inline-flex;
+  align-content: center;
 }
 
-.no-cat-footer .footer-message {
-  margin-left: 30px;
+.no-cat-footer a {
+  padding: 0 40px 0 40px;
 }
 
 .icon-git,
@@ -255,15 +264,31 @@ p {
 }
 
 @media (max-width: 960px) {
-  h1 {
+  h1,
+  .smaller-h1 {
     font-size: 45px;
+  }
+  h2 {
+    padding: 0 15px 0 15px;
+  }
+  .nav-item {
+    background: white;
+    padding-left: 10px;
   }
   .cat-pages {
     background: #fed61b;
   }
-  .img-about-me,
-  .img-projects,
-  .img-certifications {
-    min-width: 100%;
+  .row-links {
+    display: block;
+  }
+  .image-molly {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .footer-message {
+    text-align: center;
+  }
+  .footer a {
+    padding: 10px 20px 0 20px;
   }
 }
