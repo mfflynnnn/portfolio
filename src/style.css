@@ -317,7 +317,12 @@ p {
     font-size: 40px;
   }
   .row-links {
-    display: flex;
+    display: block;
+    margin: auto;
+  }
+  .home-image-links {
+    display: block;
+    margin: auto;
   }
   .img-about-me,
   .img-projects,
