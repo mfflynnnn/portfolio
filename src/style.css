@@ -237,6 +237,10 @@ p {
   max-width: 400px;
 }
 
+.bottom-row {
+  margin-bottom: 20px;
+}
+
 .contact-message {
   margin: 75px 30px 30px 30px;
 }
