@@ -206,7 +206,7 @@ p {
 }
 
 .about-me-info {
-  margin: 30px 200px 50px 200px;
+  margin: 5px 200px 50px 200px;
   padding: 20px 20px 5px 20px;
   border: 1px solid var(--primary-font-color);
   border-radius: 20px;
