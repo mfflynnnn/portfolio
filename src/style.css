@@ -36,8 +36,8 @@ h4 {
 }
 
 h5 {
-  color: white;
-  margin-top: 30px;
+  color: var(--primary-font-color);
+  margin-top: 10px;
 }
 
 p {
@@ -164,18 +164,35 @@ p {
   height: 225px;
 }
 
+.about-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-page-image {
+  justify-self: right;
+  width: 190px;
+  height: 190px;
+}
+
+.about-me-page-image img {
+  border: 1px solid var(--primary-font-color);
+  border-radius: 20px;
+}
+
 .skills-box {
   border: 1px solid var(--primary-font-color);
   border-radius: 20px;
   background-color: white;
   max-width: fit-content;
   margin: 30px;
-  padding: 15px 15px 17px 15px;
+  padding: 0px 15px 17px 15px;
 }
 
 .skills-box h3 {
   color: var(--primary-font-color);
-  margin: 0 15px 15px 15px;
+  margin: 15px 15px 5px 15px;
+  border-bottom: 2px solid #fed61b;
 }
 
 .soft-skills {
@@ -194,7 +211,24 @@ p {
   border: 1px solid var(--primary-font-color);
   border-radius: 20px;
   background-color: white;
+  text-align: left;
 }
+
+.about-me-info li {
+  padding: 12px;
+  list-style-type: repeating-emoji;
+}
+
+.about-me-info span {
+  color: var(--primary-font-color);
+}
+
+.about-me-info p {
+  text-align: center;
+  line-height: 12px;
+  margin-bottom: 30px;
+}
+
 .project-images {
   max-width: 400px;
   max-height: 400px;
@@ -227,6 +261,10 @@ p {
   margin: 40px auto 0;
 }
 
+.second-project {
+  margin-top: 10px;
+}
+
 .row-projects a {
   color: white;
   transition: all 100ms ease-in-out;
@@ -244,8 +282,8 @@ p {
   margin-bottom: 20px;
 }
 
-.contact-message {
-  margin: 75px 30px 30px 30px;
+.email {
+  margin-top: 112px;
 }
 
 .email a {
@@ -280,7 +318,7 @@ p {
   font-size: 30px;
   text-decoration: none;
   text-align: center;
-  transition: all 100ms ease-in-out;
+  transition: all 175ms ease-in-out;
 }
 
 .icon-git:hover,
@@ -299,11 +337,18 @@ p {
 
 .footer-message a {
   color: var(--primary-font-color);
-  transition: all 100ms ease-in-out;
+  transition: all 175ms ease-in-out;
+  padding: 0;
 }
 
 .footer-message a:hover {
   color: white;
+}
+
+@counter-style repeating-emoji {
+  system: cyclic;
+  symbols: "\1F408""\1F408 \200D \2B1B";
+  suffix: " ";
 }
 
 @media (max-width: 960px) {
