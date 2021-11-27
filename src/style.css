@@ -165,14 +165,16 @@ p {
 }
 
 .skills-box {
-  border: 1px solid white;
+  border: 1px solid var(--primary-font-color);
   border-radius: 20px;
+  background-color: white;
   max-width: fit-content;
   margin: 30px;
-  padding: 15px;
+  padding: 15px 15px 17px 15px;
 }
 
 .skills-box h3 {
+  color: var(--primary-font-color);
   margin: 0 15px 15px 15px;
 }
 
@@ -189,8 +191,9 @@ p {
 .about-me-info {
   margin: 30px 200px 50px 200px;
   padding: 20px 20px 5px 20px;
-  border: 1px solid white;
+  border: 1px solid var(--primary-font-color);
   border-radius: 20px;
+  background-color: white;
 }
 .project-images {
   max-width: 400px;
@@ -270,25 +273,19 @@ p {
 }
 
 .icon-git,
-.icon-linkedin {
+.icon-linkedin,
+.icon-twitter {
   display: inline-block;
   color: var(--primary-font-color);
   font-size: 30px;
   text-decoration: none;
-  padding-right: 30px;
+  text-align: center;
   transition: all 100ms ease-in-out;
 }
 
-.icon-git {
-  text-align: right;
-}
-
-.icon-linkedin {
-  text-align: left;
-}
-
 .icon-git:hover,
-.icon-linkedin:hover {
+.icon-linkedin:hover,
+.icon-twitter:hover {
   color: white;
 }
 
@@ -298,6 +295,15 @@ p {
   font-size: 11px;
   text-align: left;
   align-self: center;
+}
+
+.footer-message a {
+  color: var(--primary-font-color);
+  transition: all 100ms ease-in-out;
+}
+
+.footer-message a:hover {
+  color: white;
 }
 
 @media (max-width: 960px) {
